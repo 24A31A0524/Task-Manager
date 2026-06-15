@@ -10,80 +10,94 @@ A modern and user-friendly Task Manager application that helps users organize, t
 * Mark tasks as completed
 * Filter tasks by status
 * Responsive and clean user interface
-* Persistent data storage (if implemented)
+* RESTful API built with Express.js
+* Efficient task management workflow
 
 ## Technologies Used
 
-* HTML
-* CSS
+### Frontend
+
+* HTML5
+* CSS3
 * JavaScript
-* React (if applicable)
-* Node.js / Express (if applicable)
+
+### Backend
+
+* Node.js
+* Express.js
+
 ## Installation
 
-1. Clone the repository:
+### 1. Clone the Repository
 
 ```bash
 git clone https://github.com/24A31A0524/Task-Manager.git
 ```
 
-2. Navigate to the project directory:
+### 2. Navigate to the Project Directory
 
 ```bash
 cd Task-Manager
 ```
 
-3. Install dependencies:
+### 3. Install Dependencies
 
 ```bash
 npm install
 ```
 
-4. Start the application:
+### 4. Start the Application
 
 ```bash
 npm start
 ```
 
-## Usage
+### 5. Open in Browser
 
-* Create tasks to keep track of your work.
-* Update task details whenever needed.
-* Mark tasks as completed once finished.
-* Delete tasks that are no longer required.
-
-## Project Structure
+Visit:
 
 ```text
-Task-Manager/
-├── src/
-├── public/
-├── components/
-├── pages/
-├── package.json
-└── README.md
+http://localhost:5176
 ```
+
+## Usage
+
+* Create tasks to organize your work.
+* Update task details whenever needed.
+* Mark tasks as completed.
+* Delete tasks that are no longer required.
+* Filter tasks based on their status.
 
 ## Roadmap
 
-### Phase 1 (Completed)
-- Basic task management
-- Responsive UI
+### Completed
 
-### Phase 2 (Planned)
-- Backend API development
-- Database integration
-- User authentication
+* Task creation
+* Task editing
+* Task deletion
+* Task completion tracking
+* Responsive user interface
+* Node.js and Express backend
 
-### Phase 3 (Future)
-- Real-time synchronization
-- Team collaboration
-- Mobile application
+### Planned
+
+* Database integration (MongoDB)
+* User authentication and authorization
+* Task priorities and categories
+* Due dates and reminders
+
+### Future
+
+* Real-time synchronization
+* Team collaboration features
+* Mobile application support
 
 ## License
 
 This project is licensed under the MIT License.
 
 ## Author
+
+**Mugu Madhulika**
 
 GitHub: https://github.com/24A31A0524
